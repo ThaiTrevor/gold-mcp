@@ -38,9 +38,9 @@ dependencies = [
 
 [project.optional-dependencies]
 webhook = ["flask>=3.0.0,<4.0.0", "gunicorn>=21.0.0"]
-ai = ["anthropic>=0.40.0,<1.0.0"]
+ai = ["anthropic>=0.40.0,<2.0.0"]
 mt5 = ["MetaTrader5>=5.0.45; sys_platform == 'win32'"]
-dev = ["pytest>=7.0", "ruff>=0.1.0", "flask>=3.0.0,<4.0.0", "anthropic>=0.40.0,<1.0.0", "build>=1.0", "twine>=4.0"]
+dev = ["pytest>=7.0", "ruff>=0.1.0", "flask>=3.0.0,<4.0.0", "anthropic>=0.40.0,<2.0.0", "build>=1.0", "twine>=4.0"]
 
 [project.urls]
 Homepage = "https://pthaicapital.io.vn/mcp/"
